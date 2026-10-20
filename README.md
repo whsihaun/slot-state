@@ -1,8 +1,6 @@
 <div align="center">
 
-# slot-state
-
-**Impact of State Design on Actor Comparisons in DRL-Based Task Scheduling for Collaborative Edge Computing**
+# Impact of State Design on Actor Comparisons in DRL-Based Task Scheduling for Collaborative Edge Computing
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue)](LICENSE)
 [![Python 3.13](https://img.shields.io/badge/Python-3.13-3776AB?logo=python&logoColor=white)](requirements.txt)

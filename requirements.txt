@@ -1,0 +1,6 @@
+# Tested with Python 3.13 on Linux with CUDA 12.8.
+# For another CUDA version, install the matching torch 2.11 build from https://pytorch.org first.
+--extra-index-url https://download.pytorch.org/whl/cu128
+torch==2.11.0
+numpy==2.5.3
+scipy==1.18.1

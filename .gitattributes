@@ -1,0 +1,2 @@
+# Keep the upstream FDEdge copy byte-identical to its source (some files use CRLF line endings).
+third_party/fdedge/** -text

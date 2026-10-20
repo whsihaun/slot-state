@@ -1,0 +1,22 @@
+Third-party code
+================
+
+third_party/fdedge/ is a copy of the FDEdge implementation
+
+    https://github.com/ChangfuXu/FDEdge  (commit 551988866f934b5cdb672e9122279a73eba60259)
+
+released with the paper
+
+    C. Xu et al., "Enhancing QoE in Collaborative Edge Systems With Feedback Diffusion Generative Scheduling,"
+    IEEE Transactions on Mobile Computing, 2025. doi:10.1109/TMC.2025.3587744
+
+The files are unchanged; only the results/ images of that repository are left out. The FDEdge repository does not
+state a license, so its code remains under the copyright of its authors and is not covered by the MIT License in
+LICENSE. It is included so that the experiments run against the exact public code. If you are an author of FDEdge and
+would like this copy changed or removed, please open an issue.
+
+Code in slot_state/ that builds on FDEdge:
+  agents.py       subclasses the FDEdge diffusion actor, replay buffer and agent to switch the feedback input on,
+                  and builds the public SAC and DQN baselines with their published hyperparameters
+  environment.py  subclasses the public environments to add the state options
+  train.py        follows the training loops of fdedge_main.py and baselines/*/*_main.py

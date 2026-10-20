@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# Environments and local settings
+.venv/
+venv/
+.env
+
+# Trained weights and run outputs
+checkpoints/
+outputs/
+*.pt
+
+# OS and editor files
+.DS_Store
+.idea/
+.vscode/
